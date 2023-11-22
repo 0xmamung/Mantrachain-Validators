@@ -42,7 +42,7 @@ mantrachaind tx staking create-validator \
 --pubkey $(mantrachaind tendermint show-validator) \
 --moniker "test" \
 --identity "" \
---details "I love blockchain ❤️" \
+--details " YOUR NODE " \
 --chain-id mantrachain-testnet-1 \
 --gas auto --gas-adjustment 1.5 --fees 50uaum \
 -y
