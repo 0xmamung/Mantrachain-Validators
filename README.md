@@ -58,3 +58,10 @@ sudo rm $(which mantrachaind)
 sudo rm -rf $HOME/.mantrachain
 sed -i "/MANTRA_/d" $HOME/.bash_profile
 ```
+
+### Run node <a href="#run" id="run"></a>
+
+```bash
+sudo systemctl start mantrachaind
+sudo systemctl enable mantrachaind
+```
